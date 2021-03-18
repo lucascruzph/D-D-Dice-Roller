@@ -27,19 +27,17 @@ html{
 .roller{
     font-family: 'Oldenburg', cursive;
     opacity: 0.98;
-    width: 50vw;
-    max-width: 500px;
+    max-height: 90vh;
+    max-width: 100vh;
     text-align: center;
     border: none;
-    padding: 20px;
+    padding: 20px 0 0 0;
     font-weight: bold;
-    color: #0136a7;
 }
 
 input{
-    padding: 8px;
     margin: 5px;
-    width: 60%;
+    width: 30vw;
 }
 
 button{
@@ -60,6 +58,7 @@ input{
 legend{
     margin: 20px auto;
     padding: 5px 10px;
+    color: rgb(102,0,0);
     background-color: rgb(239,218,177);
     border: 1px solid rgb(102,0,0);
     box-shadow: 1px 1px 1px rgba(102,0,0,.5);
@@ -91,10 +90,24 @@ p{
     input{
         width: 45vw;
     }
+    .spacer{
+        padding: 50px 0 0 0px;
+    }
 }
 
 @media (max-width: 392px){
     input{
         width: 32vw;
+    }
+    
+}
+
+@media (max-height: 630px){
+    html{
+        font-size: 50%;
+    }
+    
+    .spacer{
+        padding: 10px;
     }
 }
