@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.bg{
+    background-image: url("https://64.media.tumblr.com/63c9d815b993fe37ee5d4c7a2a6c6020/tumblr_n0en3vjNCf1rq91ajo1_1280.gif");
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 100vh;
+    min-width: 100vw;
+    max-width: 100vw;
+}
+
+.spacer{
+    padding: 30px;
+}
+
+.roller{
+    font-family: 'Oldenburg', cursive;
+    opacity: 0.98;
+    width: 50vw;
+    max-width: 500px;
+    text-align: center;
+    border: none;
+    padding: 20px;
+    font-weight: bold;
+    color: #0136a7;
+}
+
+input{
+    padding: 8px;
+    margin: 5px;
+    width: 60%;
+}
+
+button{
+    font-family: 'Oldenburg', cursive;
+    padding: 10px;
+    font-weight:500;
+    background-color: #f5f5f0;
+    color: rgb(102,0,0);
+    font-size: 1.4rem;
+}
+
+input{
+    background-color: #f5f5f0;
+    padding: 10px;
+    margin: 10px;
+}
+
+legend{
+    margin: 20px auto;
+    padding: 5px 10px;
+    background-color: rgb(239,218,177);
+    border: 1px solid rgb(102,0,0);
+    box-shadow: 1px 1px 1px rgba(102,0,0,.5);
+    font-size: 2.2rem;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(102,0,0);
+    font-family: 'MedievalSharp', cursive;
+    font-size: 50px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 2.8rem;
+    color: white
+}
+
+@media (max-width: 717px){
+    html{
+        font-size: 60%;
+    }
+    .roller{
+        width: 80vw;
+    }
+    input{
+        width: 45vw;
+    }
+}
+
+@media (max-width: 392px){
+    input{
+        width: 32vw;
+    }
+}

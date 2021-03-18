@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>D&D DiceRoller</title>
+</head>
+
+<body>
+    
+    <div class="bg">
+        
+        <div class="spacer">
+            <fieldset class="roller">
+
+                <legend>DiceRoller</legend>
+                    
+                <input type="text" id="20">
+                <button id="20" onclick="roll(this.id)"> Roll D20</button>    
+                </br>
+                    
+                <input type="text" id="12">
+                <button id="12" onclick="roll(this.id)"> Roll D12</button>   
+                </br>
+                    
+                <input type="text" id="10">
+                <button id="10" onclick="roll(this.id)"> Roll D10</button>     
+                </br>
+        
+                <input type="text" id="8">
+                <button id="8" onclick="roll(this.id)"> Roll D8 &nbsp;</button>     
+                </br>
+                    
+                <input type="text" id="6">
+                <button id="6" onclick="roll(this.id)"> Roll D6 &nbsp;</button>
+                <br/>
+                
+                <input type="text" id="4">
+                <button id="4" onclick="roll(this.id)"> Roll D4 &nbsp;</button>
+                
+        
+                    <p id="jogados">-</p>
+                    <p id="total">-</p>
+        
+                </fieldset>
+        </div>
+        
+    </div>
+
+</body>
+</html>
